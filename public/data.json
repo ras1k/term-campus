@@ -1,30 +1,38 @@
 [
     {
       "id": "64522c8a724cd913cbd83cea",
-      "cover_img": "http://placehold.it/32x32",
-      "person_img": "http://placehold.it/32x32",
+      "cover_img": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=740&t=st=1683113635~exp=1683114235~hmac=fae556402e081dbf0fe03025ab5b68bfaa583688518dec1a668eaab54d2feebd",
+      "person_img": "https://cdn-icons-png.flaticon.com/512/146/146029.png?w=740&t=st=1683114134~exp=1683114734~hmac=733bb21d0b2abdb90f9dfcb5c4dff66ddc91cd0dfcab2a215bd0c9ded4514bc3",
+      "date" : "5 March, 22",
       "name": "Gallegos French",
-      "title": "lorem5"
+      "title": "How to get your first job as a self-taught programmer",
+      "read": "5 Minutes Read"
     },
     {
       "id": "64522c8a8ab0edbc21a638de",
-      "cover_img": "http://placehold.it/32x32",
-      "person_img": "http://placehold.it/32x32",
+      "cover_img": "https://img.freepik.com/free-vector/futuristic-ai-technology-template-vector-disruptive-technology-blog-banner_53876-112229.jpg?w=740&t=st=1683113934~exp=1683114534~hmac=89ed97a883eb5e73e8a302105d6130852a0bf22b164c40af97b46a2761e0e926",
+      "person_img": "https://cdn-icons-png.flaticon.com/512/780/780248.png?w=740&t=st=1683114767~exp=1683115367~hmac=b40e57c4e07a629910706c8385080296ea91e6efa91c7c9d331c6a65c569dcb9",
+      "date" : "10 March, 21",
       "name": "Bauer Guthrie",
-      "title": "lorem5"
+      "title": "How AI Works",
+      "read": "10 Minutes read"
     },
     {
       "id": "64522c8add075a23978d65be",
-      "cover_img": "http://placehold.it/32x32",
-      "person_img": "http://placehold.it/32x32",
+      "cover_img": "https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=826&t=st=1683113986~exp=1683114586~hmac=c3fb4e7212e3d2e2cb1c901fdc3cf85e0caa4110413b013a5fa3ee215d057aa7",
+      "person_img": "https://cdn-icons-png.flaticon.com/512/1154/1154478.png?w=740&t=st=1683114701~exp=1683115301~hmac=c1d24785df20a31ec6c6961242de93295237db6220d4dfb567136e1ae6e7c0b2",
+      "date" : "22 Jun, 20",
       "name": "Elva Matthews",
-      "title": "lorem5"
+      "title": "How Machine Learning Will Dominate World",
+      "read": "8 Minutes Read"
     },
     {
       "id": "64522c8a4ba290110293d759",
-      "cover_img": "http://placehold.it/32x32",
-      "person_img": "http://placehold.it/32x32",
+      "cover_img": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=740&t=st=1683114030~exp=1683114630~hmac=631a902a2551637e37bf4ccac32f75db836eaf7d834a234c617890a0affce041",
+      "person_img": "https://cdn-icons-png.flaticon.com/512/164/164600.png?w=740&t=st=1683114809~exp=1683115409~hmac=a31cbd1bdc9ee646d7825a98a928a287e420d6cf3e3a93e6a9758bb330ad34d3",
+      "date" : "12 Jan, 23",
       "name": "Thornton Jimenez",
-      "title": "lorem5"
+      "title": "Best Devices To Checkout Recently",
+      "read": "12 Minutes Read"
     }
   ]
