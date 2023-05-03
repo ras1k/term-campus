@@ -7,9 +7,9 @@ const Sidecart = ({cart, totalReadTime}) => {
     console.log(cart)
 
     return (
-        <div>
+        <div className='full-cart'>
             <div className='spent-card'>
-                <h4>Spent Time on Read : {totalReadTime}</h4>
+                <h4>Spent Time on Read : {totalReadTime} Minutes</h4>
             </div>
 
             <div>
@@ -17,7 +17,7 @@ const Sidecart = ({cart, totalReadTime}) => {
                     <div className='bookmarks card'>
                         <h4>Bookmarked Blogs : {cart.length}</h4>
                         {
-                            cart.map(c => <h4>{c.title} </h4>)
+                            cart.map(c => <h5 className='mt-2 bookCart'>{c.title} </h5>)
                         }
                     </div>
                 </div>

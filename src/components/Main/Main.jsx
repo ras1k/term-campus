@@ -36,10 +36,10 @@ const Main = (props) => {
                     </div>
                 </div>
                 <div className='Title'>
-                    <h3>{title}</h3>
+                    <h4>{title}</h4>
                 </div>
                 <div>
-                    <button onClick={()=>markBtn(props.blog)}> Mark as read </button>
+                    <button onClick={()=>markBtn(props.blog)} className='btn btn-info text-white'> Mark As Read </button>
                 </div>
             </div>
         </div>
