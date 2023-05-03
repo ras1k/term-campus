@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sidecart.css';
+import Bookmarks from '../Bookmarks/Bookmarks';
 
 const Sidecart = () => {
     return (
@@ -9,7 +10,7 @@ const Sidecart = () => {
             </div>
 
             <div>
-                
+                <Bookmarks></Bookmarks>
             </div>
         </div>
     );

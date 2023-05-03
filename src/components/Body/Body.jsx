@@ -23,7 +23,7 @@ const Body = () => {
                     }
 
                 </div>
-                <div className='col-md-4 card'>
+                <div className='col-md-4'>
                     <Sidecart></Sidecart>
                 </div>
             </div>
