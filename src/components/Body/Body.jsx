@@ -10,6 +10,12 @@ const Body = () => {
             .then(res => res.json())
             .then(data => setCards(data))
     }, []);
+
+    
+    const bookmarkBtn = (card) =>{
+        console.log('lol', card)
+    }
+
     return (
         <div>
             <div className='row'>
@@ -19,6 +25,7 @@ const Body = () => {
                             <Main
                                 key={card.id}
                                 card={card}
+                                bookmarkBtn={bookmarkBtn}
                             ></Main>)
                     }
 
