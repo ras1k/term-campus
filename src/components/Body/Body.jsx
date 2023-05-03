@@ -4,16 +4,28 @@ import Main from '../Main/Main';
 import Sidecart from '../Sidecart/Sidecart';
 
 const Body = () => {
-    const [cards, setCards] = useState([]);
+    const [blogs, setBlogs] = useState([]);
+    const [cart, setCart] = useState([]);
+    const [time, setTime] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
-            .then(data => setCards(data))
+            .then(data => setBlogs(data))
     }, []);
 
+    const markBtn = (totalTime) =>{
+        for (const blog of blogs){
+            setTime([...time, totalTime])
+        }
+    }
+console.log(time)
+    const totalReadTime = time.reduce((total, t) => total + t.read, 0)
+    // console.log(totalReadTime);
     
-    const bookmarkBtn = (card) =>{
-        console.log('lol', card)
+    const bookmarkBtn = (blog) => {
+        const newCart = [...cart, blog];
+        setCart(newCart);
+        // console.log(cart);
     }
 
     return (
@@ -21,17 +33,21 @@ const Body = () => {
             <div className='row'>
                 <div className='col-md-8'>
                     {
-                        cards.map(card =>
+                        blogs.map(blog =>
                             <Main
-                                key={card.id}
-                                card={card}
+                                key={blog.id}
+                                blog={blog}
                                 bookmarkBtn={bookmarkBtn}
+                                markBtn={markBtn}
                             ></Main>)
                     }
 
                 </div>
                 <div className='col-md-4'>
-                    <Sidecart></Sidecart>
+                    <Sidecart 
+                    cart={cart}
+                    totalReadTime={totalReadTime}
+                    ></Sidecart>
                 </div>
             </div>
         </div>

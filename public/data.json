@@ -6,7 +6,7 @@
       "date" : "5 March, 22",
       "name": "Gallegos French",
       "title": "How to get your first job as a self-taught programmer",
-      "read": "05 Minutes Read"
+      "read": 5
     },
     {
       "id": "64522c8a8ab0edbc21a638de",
@@ -15,7 +15,7 @@
       "date" : "10 March, 21",
       "name": "Bauer Guthrie",
       "title": "How AI Works",
-      "read": "10 Minutes read"
+      "read": 10
     },
     {
       "id": "64522c8add075a23978d65be",
@@ -24,7 +24,7 @@
       "date" : "22 Jun, 20",
       "name": "Elva Matthews",
       "title": "How Machine Learning Will Dominate World",
-      "read": "08 Minutes Read"
+      "read": 8
     },
     {
       "id": "64522c8a4ba290110293d759",
@@ -33,6 +33,6 @@
       "date" : "12 Jan, 23",
       "name": "Thornton Jimenez",
       "title": "Best Devices To Checkout Recently",
-      "read": "12 Minutes Read"
+      "read": 12
     }
   ]

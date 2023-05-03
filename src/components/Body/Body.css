@@ -1,0 +1,11 @@
+.spent-card {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 21px 50px;
+    color: #6047EC;
+}
+.bookmarks {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}

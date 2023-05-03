@@ -5,3 +5,7 @@
     padding: 21px 50px;
     color: #6047EC;
 }
+.bookmarks {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
