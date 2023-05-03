@@ -1,8 +1,10 @@
 import React from 'react';
-import './Main.css'
+import './Main.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 const Main = (props) => {
-    const {name, title, date, read, cover_img, person_img} = props.card;
+    const { name, title, date, read, cover_img, person_img } = props.card;
     return (
         <div className='card mb-3'>
             <div className="blogs-container">
@@ -16,11 +18,18 @@ const Main = (props) => {
                         </div>
                         <div>
                             <h5 className='name'>Name : {name}</h5>
-                            <p><small>{date}</small></p>
+                            <p>
+                                <small>{date}</small>
+                            </p>
                         </div>
                     </div>
                     <div>
-                        <p>{read}</p>
+                        <p>
+                            {read} &nbsp;
+                            <button className='btn btn-outline-info'>
+                                <FontAwesomeIcon icon={faBookmark} />
+                            </button>
+                        </p>
                     </div>
                 </div>
                 <div className='Title'>
