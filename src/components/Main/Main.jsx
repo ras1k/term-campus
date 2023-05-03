@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Main = () => {
+    
     return (
         <div className='card'>
             <div className="blogs-container">
                 <div className="blog-cart">
-                    <img src="" alt="" className="banner" />
+                    <img src="../../../public/cr7.jpg" alt="" className="banner w-100 mb-2" />
                 </div>
                 <div className='title-name d-flex justify-content-between'>
                     <div className='d-flex gap-3'>
@@ -22,7 +23,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className='Title'>
-                    Title
+                    <h3>Title</h3>
                 </div>
                 <div>
                     <a href="">Mark As Read</a>
